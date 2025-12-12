@@ -16,7 +16,9 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar-content">
           <Link to="/" className="navbar-brand">
-            🌾 Agro Connect
+            <span style={{ fontSize: '28px', marginRight: '8px' }}>🌾</span>
+            <span style={{ fontWeight: '800', letterSpacing: '-0.5px' }}>Agro</span>
+            <span style={{ fontWeight: '400', opacity: '0.95' }}> Connect</span>
           </Link>
           <div className="navbar-links">
             <Link to="/">Home</Link>
