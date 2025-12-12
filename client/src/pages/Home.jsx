@@ -13,7 +13,7 @@ const Home = () => {
       try {
         const [categoriesRes, productsRes] = await Promise.all([
           api.get('/products/categories'),
-          api.get('/products?limit=6'),
+          api.get('/products?limit=8'),
         ])
         setCategories(categoriesRes.data)
         setFeaturedProducts(productsRes.data.products || [])
